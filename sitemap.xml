@@ -2,20 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.chestnut.monster/tags/first/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.chestnut.monster/posts/test-one/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.chestnut.monster/posts/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.chestnut.monster/tags/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.chestnut.monster/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <loc>https://blog.chestnut.monster/about/</loc>
   </url><url>
     <loc>https://blog.chestnut.monster/archives/</loc>
   </url><url>
@@ -24,5 +11,9 @@
     <loc>https://blog.chestnut.monster/search/</loc>
   </url><url>
     <loc>https://blog.chestnut.monster/series/</loc>
+  </url><url>
+    <loc>https://blog.chestnut.monster/tags/</loc>
+  </url><url>
+    <loc>https://blog.chestnut.monster/</loc>
   </url>
 </urlset>
