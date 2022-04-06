@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on 野生栗子🌰</title>
+    <title>标签 on 野生栗子🌰</title>
     <link>https://qilinz.github.io/tags/</link>
-    <description>Recent content in Tags on 野生栗子🌰</description>
+    <description>Recent content in 标签 on 野生栗子🌰</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 06 Apr 2022 12:16:38 +0200</lastBuildDate><atom:link href="https://qilinz.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>first</title>
-      <link>https://qilinz.github.io/tags/first/</link>
+      <title>测试</title>
+      <link>https://qilinz.github.io/tags/%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Wed, 06 Apr 2022 12:16:38 +0200</pubDate>
       
-      <guid>https://qilinz.github.io/tags/first/</guid>
+      <guid>https://qilinz.github.io/tags/%E6%B5%8B%E8%AF%95/</guid>
       <description></description>
     </item>
     
