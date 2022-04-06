@@ -2,18 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://qilinz.github.io/tags/first/</loc>
+    <lastmod>2022-04-06T12:16:38+02:00</lastmod>
+  </url><url>
+    <loc>https://qilinz.github.io/posts/hello-world/</loc>
+    <lastmod>2022-04-06T12:16:38+02:00</lastmod>
+  </url><url>
+    <loc>https://qilinz.github.io/posts/</loc>
+    <lastmod>2022-04-06T12:16:38+02:00</lastmod>
+  </url><url>
+    <loc>https://qilinz.github.io/tags/</loc>
+    <lastmod>2022-04-06T12:16:38+02:00</lastmod>
+  </url><url>
+    <loc>https://qilinz.github.io/</loc>
+    <lastmod>2022-04-06T12:16:38+02:00</lastmod>
+  </url><url>
     <loc>https://qilinz.github.io/about/</loc>
   </url><url>
     <loc>https://qilinz.github.io/categories/</loc>
   </url><url>
     <loc>https://qilinz.github.io/series/</loc>
   </url><url>
-    <loc>https://qilinz.github.io/tags/</loc>
-  </url><url>
     <loc>https://qilinz.github.io/search/</loc>
   </url><url>
     <loc>https://qilinz.github.io/archives/</loc>
-  </url><url>
-    <loc>https://qilinz.github.io/</loc>
   </url>
 </urlset>
