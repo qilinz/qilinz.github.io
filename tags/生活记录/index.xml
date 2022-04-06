@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on 野生栗子🌰</title>
-    <link>https://qilinz.github.io/posts/</link>
-    <description>Recent content in Posts on 野生栗子🌰</description>
+    <title>生活记录 on 野生栗子🌰</title>
+    <link>https://qilinz.github.io/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</link>
+    <description>Recent content in 生活记录 on 野生栗子🌰</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 06 Apr 2022 15:20:56 +0200</lastBuildDate><atom:link href="https://qilinz.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Apr 2022 15:20:56 +0200</lastBuildDate><atom:link href="https://qilinz.github.io/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>转码心路历程记录</title>
       <link>https://qilinz.github.io/posts/become-a-developer/</link>
@@ -13,15 +13,6 @@
       
       <guid>https://qilinz.github.io/posts/become-a-developer/</guid>
       <description>我是如何在法国用经济学硕士背景找到程序员工作的</description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://qilinz.github.io/posts/hello-world/</link>
-      <pubDate>Wed, 06 Apr 2022 12:16:38 +0200</pubDate>
-      
-      <guid>https://qilinz.github.io/posts/hello-world/</guid>
-      <description>你好</description>
     </item>
     
   </channel>
