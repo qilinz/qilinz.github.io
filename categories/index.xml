@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on 野生栗子🌰</title>
+    <title>分类 on 野生栗子🌰</title>
     <link>https://qilinz.github.io/categories/</link>
-    <description>Recent content in Categories on 野生栗子🌰</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://qilinz.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in 分类 on 野生栗子🌰</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 01 May 2022 21:35:46 +0200</lastBuildDate><atom:link href="https://qilinz.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>折腾代码</title>
+      <link>https://qilinz.github.io/categories/%E6%8A%98%E8%85%BE%E4%BB%A3%E7%A0%81/</link>
+      <pubDate>Sun, 01 May 2022 21:35:46 +0200</pubDate>
+      
+      <guid>https://qilinz.github.io/categories/%E6%8A%98%E8%85%BE%E4%BB%A3%E7%A0%81/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>写写生活</title>
+      <link>https://qilinz.github.io/categories/%E5%86%99%E5%86%99%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Sun, 24 Apr 2022 23:57:54 +0200</pubDate>
+      
+      <guid>https://qilinz.github.io/categories/%E5%86%99%E5%86%99%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

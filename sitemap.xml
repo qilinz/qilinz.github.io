@@ -2,11 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://qilinz.github.io/tags/docker/</loc>
+    <lastmod>2022-05-01T21:35:46+02:00</lastmod>
+  </url><url>
+    <loc>https://qilinz.github.io/tags/miniflux/</loc>
+    <lastmod>2022-05-01T21:35:46+02:00</lastmod>
+  </url><url>
+    <loc>https://qilinz.github.io/tags/nginx/</loc>
+    <lastmod>2022-05-01T21:35:46+02:00</lastmod>
+  </url><url>
     <loc>https://qilinz.github.io/posts/</loc>
-    <lastmod>2022-04-24T23:57:54+02:00</lastmod>
+    <lastmod>2022-05-01T21:35:46+02:00</lastmod>
+  </url><url>
+    <loc>https://qilinz.github.io/tags/rss/</loc>
+    <lastmod>2022-05-01T21:35:46+02:00</lastmod>
+  </url><url>
+    <loc>https://qilinz.github.io/tags/vps/</loc>
+    <lastmod>2022-05-01T21:35:46+02:00</lastmod>
   </url><url>
     <loc>https://qilinz.github.io/tags/</loc>
-    <lastmod>2022-04-24T23:57:54+02:00</lastmod>
+    <lastmod>2022-05-01T21:35:46+02:00</lastmod>
+  </url><url>
+    <loc>https://qilinz.github.io/categories/</loc>
+    <lastmod>2022-05-01T21:35:46+02:00</lastmod>
+  </url><url>
+    <loc>https://qilinz.github.io/posts/miniflux-with-nginx/</loc>
+    <lastmod>2022-05-01T21:35:46+02:00</lastmod>
+  </url><url>
+    <loc>https://qilinz.github.io/</loc>
+    <lastmod>2022-05-01T21:35:46+02:00</lastmod>
+  </url><url>
+    <loc>https://qilinz.github.io/categories/%E6%8A%98%E8%85%BE%E4%BB%A3%E7%A0%81/</loc>
+    <lastmod>2022-05-01T21:35:46+02:00</lastmod>
   </url><url>
     <loc>https://qilinz.github.io/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2022-04-24T23:57:54+02:00</lastmod>
@@ -14,7 +41,7 @@
     <loc>https://qilinz.github.io/posts/nonexistent-promise/</loc>
     <lastmod>2022-04-24T23:57:54+02:00</lastmod>
   </url><url>
-    <loc>https://qilinz.github.io/</loc>
+    <loc>https://qilinz.github.io/categories/%E5%86%99%E5%86%99%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2022-04-24T23:57:54+02:00</lastmod>
   </url><url>
     <loc>https://qilinz.github.io/tags/%E8%BD%AC%E7%A0%81/</loc>
@@ -28,8 +55,6 @@
   </url><url>
     <loc>https://qilinz.github.io/tags/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2022-04-06T12:16:38+02:00</lastmod>
-  </url><url>
-    <loc>https://qilinz.github.io/categories/</loc>
   </url><url>
     <loc>https://qilinz.github.io/series/</loc>
   </url><url>
