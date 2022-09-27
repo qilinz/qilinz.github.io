@@ -13,12 +13,12 @@
       
       <guid>https://qilinz.github.io/posts/miniflux-with-nginx/</guid>
       <description>搭建过程主要参考（过程大体一致，添加了一些细节和我遇到的问题）：
- RSS | RSSHub 搭配 Miniflux，实现订阅自由 Miniflux | 利用Docker-compose搭建RSS阅读器    该文适合人群：想用自定义的域名来访问Miniflux。
-  1. 安装docker 和docker-compose 我使用的VPS系统是Ubuntu，就根据官方的Ubuntu安装文档 装的docker。装好docker之后，在VPS中命令行中运行以下语句，即可安装docker-compose：
+RSS | RSSHub 搭配 Miniflux，实现订阅自由 Miniflux | 利用Docker-compose搭建RSS阅读器 该文适合人群：想用自定义的域名来访问Miniflux。
+1. 安装docker 和docker-compose 我使用的VPS系统是Ubuntu，就根据官方的Ubuntu安装文档 装的docker。装好docker之后，在VPS中命令行中运行以下语句，即可安装docker-compose：
 apt install docker-compose 2. 通过docker-compose安装Miniflux （1）创建并进入你想安装Miniflux的文件夹：
 mkdir ~/miniflux # 在根目录创建名为miniflux的文件夹 cd ~/miniflux # 进入miniflux文件夹 （2）创建docker-compose.yml文件：
 nano docker-compose.yml # 使用nano编辑器创建，会自动打开文件以写入内容 （3）在文件中写入以下内容并保存*：
-version: &amp;#39;3.4&amp;#39; services: miniflux: image: miniflux/miniflux:latest ports: - &amp;#34;127.0.0.1:8080:8080&amp;#34; #调整一：增加localhost ip 并改port为8080 depends_on: - db environment: - DATABASE_URL=postgres://miniflux:secret@db/miniflux?sslmode=disable - RUN_MIGRATIONS=1 - CREATE_ADMIN=1 - ADMIN_USERNAME=admin # 登录Miniflux的用户名，可自定义 - ADMIN_PASSWORD=password # 登录Miniflux的密码，可自定义，至少6位 - &amp;#34;BASE_URL=https://enter.</description>
+version: &amp;#39;3.4&amp;#39; services: miniflux: image: miniflux/miniflux:latest ports: - &amp;#34;127.0.0.1:8080:8080&amp;#34; #调整一：增加localhost ip 并改port为8080 depends_on: - db environment: - DATABASE_URL=postgres://miniflux:secret@db/miniflux?sslmode=disable - RUN_MIGRATIONS=1 - CREATE_ADMIN=1 - ADMIN_USERNAME=admin # 登录Miniflux的用户名，可自定义 - ADMIN_PASSWORD=password # 登录Miniflux的密码，可自定义，至少6位 - &amp;#34;BASE_URL=https://enter.your.url&amp;#34; # 调整二：输入想用来访问Miniflux的域名 healthcheck: test: [&amp;#34;CMD&amp;#34;, &amp;#34;/usr/bin/miniflux&amp;#34;, &amp;#34;-healthcheck&amp;#34;, &amp;#34;auto&amp;#34;] db: image: postgres:latest environment: - POSTGRES_USER=miniflux - POSTGRES_PASSWORD=secret volumes: - miniflux-db:/var/lib/postgresql/data healthcheck: test: [&amp;#34;CMD&amp;#34;, &amp;#34;pg_isready&amp;#34;, &amp;#34;-U&amp;#34;, &amp;#34;miniflux&amp;#34;] interval: 10s start_period: 30s volumes: miniflux-db: 该docker-compose.</description>
     </item>
     
   </channel>

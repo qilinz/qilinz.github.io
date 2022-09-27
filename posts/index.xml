@@ -13,43 +13,12 @@
       
       <guid>https://qilinz.github.io/posts/miniflux-with-nginx/</guid>
       <description>搭建过程主要参考（过程大体一致，添加了一些细节和我遇到的问题）：
- RSS | RSSHub 搭配 Miniflux，实现订阅自由 Miniflux | 利用Docker-compose搭建RSS阅读器    该文适合人群：想用自定义的域名来访问Miniflux。
-  1. 安装docker 和docker-compose 我使用的VPS系统是Ubuntu，就根据官方的Ubuntu安装文档 装的docker。装好docker之后，在VPS中命令行中运行以下语句，即可安装docker-compose：
+RSS | RSSHub 搭配 Miniflux，实现订阅自由 Miniflux | 利用Docker-compose搭建RSS阅读器 该文适合人群：想用自定义的域名来访问Miniflux。
+1. 安装docker 和docker-compose 我使用的VPS系统是Ubuntu，就根据官方的Ubuntu安装文档 装的docker。装好docker之后，在VPS中命令行中运行以下语句，即可安装docker-compose：
 apt install docker-compose 2. 通过docker-compose安装Miniflux （1）创建并进入你想安装Miniflux的文件夹：
 mkdir ~/miniflux # 在根目录创建名为miniflux的文件夹 cd ~/miniflux # 进入miniflux文件夹 （2）创建docker-compose.yml文件：
 nano docker-compose.yml # 使用nano编辑器创建，会自动打开文件以写入内容 （3）在文件中写入以下内容并保存*：
-version: &amp;#39;3.4&amp;#39; services: miniflux: image: miniflux/miniflux:latest ports: - &amp;#34;127.0.0.1:8080:8080&amp;#34; #调整一：增加localhost ip 并改port为8080 depends_on: - db environment: - DATABASE_URL=postgres://miniflux:secret@db/miniflux?sslmode=disable - RUN_MIGRATIONS=1 - CREATE_ADMIN=1 - ADMIN_USERNAME=admin # 登录Miniflux的用户名，可自定义 - ADMIN_PASSWORD=password # 登录Miniflux的密码，可自定义，至少6位 - &amp;#34;BASE_URL=https://enter.</description>
-    </item>
-    
-    <item>
-      <title>我以为我们会结婚的</title>
-      <link>https://qilinz.github.io/posts/nonexistent-promise/</link>
-      <pubDate>Sun, 24 Apr 2022 23:57:54 +0200</pubDate>
-      
-      <guid>https://qilinz.github.io/posts/nonexistent-promise/</guid>
-      <description>1 在一个派对上，我知道班上的墨西哥姐姐要结婚了。
-我祝贺了她之后问她：“我想跟我女友求婚，但我有一些犹豫，我不知道怎么办。”
-墨西哥姐姐说：“等到了那一天，你就会知道了。”
-这个对话发生在2020年1月，同一天法国确诊了第一例新冠病例。
-2 很神奇，分手后我跟她过了段自在日子。因为没有撕破脸，因为搬家还需要时间，我和她就这么住在一起，她睡卧室，我住客厅。我不知道什么该说什么不该说，所以就也不太说话。我出门的时候我会跟她说一声，她出门的时候也会跟我说一声。她问我好不好的时候，我也问她好不好。她不是很好的时候，我就默默走开。
-她不再在吃饭的时候看电视，于是就这样获得了，曾经渴望的每天交流的时刻。她开始在意生活空间，有了很多布置屋子的想法，也开始问我扔在一边的袜子要不要洗。她还是一如既往地问我晚上想吃什么，我依然说不知道，然后她去超市买菜做给我吃。她有一天问我，“我能抱抱你吗”，然后我们就拥抱了一下，一句话都没说。
-我不知道。每天看到她跟小狗玩的时候，还是不自觉地拿出手机录视频，仿佛我们还在一起。
-3 我们在一起度过了五年。从读研究生，到她工作，到我找到工作。我们一起度过了最挣扎最痛苦的阶段。
-朋友们都说，你在哪找的女友，能不能也给我介绍一个。还有人打趣说，“她还有妹妹吗？”。
-她真的很好，我现在都能说出她一箩筐的优点。可是又是怎么走到了今天呢。我总是在反思自己，到底是不是我不够努力。从朋友嘴里得知，她也在反思自己。我觉得她不够整洁，不够在意我对家里一切的维护。她觉得我说话过分，生气的时候伤人第二天又仿佛无事发生。我觉得每一次承诺都是要认真兑现的，她觉得不重要的事情是可以忽略的。这大概就是导致分手的一个月的对话的全部。
-我看着她每天抽烟抽到嗓子痛，看着她哭一整晚第二天眼睛肿得不行，看着她每天跟朋友下楼打两三个小时的电话，看着她每天不自觉地叹很多气。我觉得我应该早早地从她眼前消失，她觉得我们还要继续做朋友互相帮助。我心想我有什么可帮助她的，现在觉得，也许只是她还想帮助我。
-4 这天是我们还没分手的时候。早晨我刚睡醒，她给我展示她昨天新买的戒指。我说：“你别动，我拍个照片。”
-于是就有了这张照片，我打趣她说：“你是在跟我求婚吗？“
-从那一天到现在，也不过两个多月。我就一边看着这张照片，一边哭着写这篇文章。我也不知道我为什么要把这些写出来，可能觉得这是我生命中的一部分，可能写出来能减轻痛苦，也可能只是觉得遗憾。
-5 我是真的想过跟她结婚的。从来没觉得拥抱的时候原来一个人可以跟另外一个人这样近，从来没觉得一个人能这样爱我，从来没觉得一个人的存在能这样让人安心。但事情什么时候开始变化的呢，我也不记得了。可能是两个人在各自在高压下无法支撑对方，可能是两个人在对话却没有真正沟通，可能两个人都有各自的心结无法好好进入亲密关系。这个时候我就好恨，为什么人成长的过程中要有那么多痛苦，为什么这些痛苦要伴随人这么这么久还要来侵蚀其他人的生活。我恨，我不满，我难过，我却只能接受。
-6 我确实在这段关系里成为了更好的人。因为她在奢侈品行业，刚在一起的时候我就恶补各种奢侈品知识，也不断地听她讲了很多很多设计师的故事，于是现在有了很好的品味。我本来是喜欢猫的，觉得我跟猫互不干扰、静静生活，这样的关系很好；她却只喜欢狗，跟我讲了很多狗狗故事。于是我决定养个小狗，然后就学会了小狗一样热烈的爱。她很有逻辑、会讲故事，之前每次写完papar都给她看，然后她帮我捋逻辑、重新组织，就这样我学会了怎样更好地写书面英语。她很努力、很认真，为了自己想要的可以付出一切，于是我也学会了多差的情景我也再努力去争取一下。最重要的是，我变得搞笑了，从刻薄变成了搞笑地刻薄。
-说了分手之后，她说她因为我成为了更好的人，希望我也一样。我当时嗯了一声就过去了，有点后悔没认真跟她讲，我也真的变成了更好的人。
-7 我还没准备好要开始一个人生活，但我确实要开始一个人生活了。我有些付出型人格，原先为父母活着，后来为朋友活着，再后来为伴侣活着。我总觉得我就是那个主角里的旁观者，目睹着身边的人进行着她们的生活，我存在的意义就是记录身边的一切。但从去年开始，我意识到，我总要过自己的生活的，因为人不能指望着别人，也不该期盼别人改变。
-如今我终于要开始我自己的生活，我很期待，但又因为一件件意外变得愈加恐惧。怕这生活没开始就破碎了，也怕这生活刚开始就被不可抗力夺走了。
-一个朋友跟我说：”可能时过境迁回过头看发现平平稳稳地过来了，但是在那个环境下每天都在焦虑。“
-我希望她说的是对的。
-另外一个朋友跟我说：“希望你能好。”
-我希望她也是对的。</description>
+version: &amp;#39;3.4&amp;#39; services: miniflux: image: miniflux/miniflux:latest ports: - &amp;#34;127.0.0.1:8080:8080&amp;#34; #调整一：增加localhost ip 并改port为8080 depends_on: - db environment: - DATABASE_URL=postgres://miniflux:secret@db/miniflux?sslmode=disable - RUN_MIGRATIONS=1 - CREATE_ADMIN=1 - ADMIN_USERNAME=admin # 登录Miniflux的用户名，可自定义 - ADMIN_PASSWORD=password # 登录Miniflux的密码，可自定义，至少6位 - &amp;#34;BASE_URL=https://enter.your.url&amp;#34; # 调整二：输入想用来访问Miniflux的域名 healthcheck: test: [&amp;#34;CMD&amp;#34;, &amp;#34;/usr/bin/miniflux&amp;#34;, &amp;#34;-healthcheck&amp;#34;, &amp;#34;auto&amp;#34;] db: image: postgres:latest environment: - POSTGRES_USER=miniflux - POSTGRES_PASSWORD=secret volumes: - miniflux-db:/var/lib/postgresql/data healthcheck: test: [&amp;#34;CMD&amp;#34;, &amp;#34;pg_isready&amp;#34;, &amp;#34;-U&amp;#34;, &amp;#34;miniflux&amp;#34;] interval: 10s start_period: 30s volumes: miniflux-db: 该docker-compose.</description>
     </item>
     
     <item>
