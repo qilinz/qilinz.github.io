@@ -5,7 +5,19 @@
     <link>https://qilinz.github.io/categories/%E6%8A%98%E8%85%BE%E4%BB%A3%E7%A0%81/</link>
     <description>Recent content in 折腾代码 on 野生栗子🌰</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 01 May 2022 21:35:46 +0200</lastBuildDate><atom:link href="https://qilinz.github.io/categories/%E6%8A%98%E8%85%BE%E4%BB%A3%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh</language>
+    <lastBuildDate>Thu, 01 Jun 2023 13:29:30 +0200</lastBuildDate><atom:link href="https://qilinz.github.io/categories/%E6%8A%98%E8%85%BE%E4%BB%A3%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>工具推荐：帮助检查Python项目Dependencies问题</title>
+      <link>https://qilinz.github.io/posts/python-dependency-check/</link>
+      <pubDate>Thu, 01 Jun 2023 13:29:30 +0200</pubDate>
+      
+      <guid>https://qilinz.github.io/posts/python-dependency-check/</guid>
+      <description>工作的陈年老项目的requirements.txt超级乱，甚至互相冲突，想要更新一下requirements.txt，结果发现并没有想像中的那么简单，尤其是想要自动化这个过程的时候。最好的方法还是使用package&amp;amp; dependency management 工具， 比如poetry和PDM。我这次还没机会使用，所以不在本文中讨论。 其实基本都是靠ChatGPT推荐的，问ta比看我写的有用。
+开始检查前的注意事项： Python版本会有影响。 pip版本会有影响，不同pip版本里解决dependency冲突的方式会不一样。 没有完美自动化解决的工具，都需要不同程度的手动查看。 pip install -r requirements.txt 后pip freeze显示的，大概率会跟requirements.txt 不一样，因为可能会额外下载dependency package。 想知道冲突在哪个package的哪个dependency: pipdeptree 直接引用项目介绍：
+pipdeptree is a command line utility for displaying the installed python packages in form of a dependency tree. It works for packages installed globally on a machine as well as in a virtualenv. Since pip freeze shows all dependencies as a flat list, finding out which are the top level packages and which packages do they depend on requires some effort.</description>
+    </item>
+    
     <item>
       <title>使用Docker搭建Miniflux并使用Nginx进行反向代理</title>
       <link>https://qilinz.github.io/posts/miniflux-with-nginx/</link>
