@@ -6,7 +6,16 @@
     <description>Recent content on 野生栗子🌰</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 01 Jun 2023 13:29:30 +0200</lastBuildDate><atom:link href="https://qilinz.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Dec 2023 15:29:14 +0100</lastBuildDate><atom:link href="https://qilinz.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>跳槽了</title>
+      <link>https://qilinz.github.io/posts/second-job/</link>
+      <pubDate>Sun, 03 Dec 2023 15:29:14 +0100</pubDate>
+      
+      <guid>https://qilinz.github.io/posts/second-job/</guid>
+      <description>终于跳槽了。</description>
+    </item>
+    
     <item>
       <title>工具推荐：帮助检查Python项目Dependencies问题</title>
       <link>https://qilinz.github.io/posts/python-dependency-check/</link>
